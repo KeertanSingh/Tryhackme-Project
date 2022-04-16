@@ -1,0 +1,38 @@
+https://tryhackme.com/room/blue
+
+keertan singh
+tryhackme profile : hacktac
+
+
+target ip = 10.10.186.77
+ 
+Task1 = Recon
+1. blank
+2. 3
+3. ms17-010
+
+Task2 = Gain access 
+4. msfconsole
+5. exploit/windows/smb/ms17_010_eternalblue
+6. rhosts
+7. blank
+8. blank
+
+Task-3 = Escalate
+9.post/multi/manage/shell_to_meterpreter
+10. session
+11. blank
+12. blank
+13. blank
+14. blank
+15. blank
+16. blank
+
+Task-4 = Cracking
+17. Jon
+18. alqfna22
+
+Task-5 = Find Flags!
+flag1 = flag{access_the_machine}
+flag2 = flag{sam_database_elevated_access}
+flag3 = flag{admin_documents_can_be_valuable}

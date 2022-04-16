@@ -1,0 +1,61 @@
+# Nmap 7.92 scan initiated Sat Apr 16 05:05:39 2022 as: nmap -sV -vv -sC -oN Nmap_scan1 10.10.186.77
+Increasing send delay for 10.10.186.77 from 0 to 5 due to 11 out of 21 dropped probes since last increase.
+Increasing send delay for 10.10.186.77 from 5 to 10 due to 11 out of 20 dropped probes since last increase.
+Nmap scan report for 10.10.186.77
+Host is up, received conn-refused (0.24s latency).
+Scanned at 2022-04-16 05:05:40 EDT for 111s
+Not shown: 992 closed tcp ports (conn-refused)
+PORT      STATE SERVICE      REASON  VERSION
+135/tcp   open  msrpc        syn-ack Microsoft Windows RPC
+139/tcp   open  netbios-ssn  syn-ack Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds syn-ack Windows 7 Professional 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+49152/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49153/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49154/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49158/tcp open  msrpc        syn-ack Microsoft Windows RPC
+49160/tcp open  msrpc        syn-ack Microsoft Windows RPC
+Service Info: Host: JON-PC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 1h39m59s, deviation: 2h53m12s, median: 0s
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| nbstat: NetBIOS name: JON-PC, NetBIOS user: <unknown>, NetBIOS MAC: 02:1b:d8:79:5e:47 (unknown)
+| Names:
+|   JON-PC<00>           Flags: <unique><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|   JON-PC<20>           Flags: <unique><active>
+|   WORKGROUP<1e>        Flags: <group><active>
+|   WORKGROUP<1d>        Flags: <unique><active>
+|   \x01\x02__MSBROWSE__\x02<01>  Flags: <group><active>
+| Statistics:
+|   02 1b d8 79 5e 47 00 00 00 00 00 00 00 00 00 00 00
+|   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+|_  00 00 00 00 00 00 00 00 00 00 00 00 00 00
+| smb2-time: 
+|   date: 2022-04-16T09:07:23
+|_  start_date: 2022-04-16T09:02:21
+| smb2-security-mode: 
+|   2.1: 
+|_    Message signing enabled but not required
+| smb-os-discovery: 
+|   OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1:professional
+|   Computer name: Jon-PC
+|   NetBIOS computer name: JON-PC\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2022-04-16T04:07:23-05:00
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 15676/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 43384/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 24401/udp): CLEAN (Failed to receive data)
+|   Check 4 (port 57059/udp): CLEAN (Timeout)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Apr 16 05:07:31 2022 -- 1 IP address (1 host up) scanned in 111.43 seconds
