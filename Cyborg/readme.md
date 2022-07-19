@@ -4,7 +4,7 @@
 > Keertan Singh, 19 July,2022
  <!-- image  -->
  #
- ![alt Cyborg](/images/5493020.jpg)
+ ![alt Cyborg](https://github.com/keerat-1/Tryhackme-Project/blob/main/Cyborg/images/5493020.jpg?raw=true)
 #
 ## Notes:
 ```
