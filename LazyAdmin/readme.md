@@ -1,7 +1,7 @@
 # LazyAdmin - TryHackMe
 > Keertan singh, 20 july,2022
 
-![alt text](/images/bg.jpeg)
+![alt text](https://raw.githubusercontent.com/KeertanSingh/Tryhackme-Project/main/LazyAdmin/images/bg.jpeg)
 
 #
 ## Notes:
